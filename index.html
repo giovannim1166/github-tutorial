@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>GitHub Tutorial by giovannim1166</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/giovannim1166/github-tutorial">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/giovannim1166/github-tutorial/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/giovannim1166/github-tutorial/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>GitHub Tutorial</h1>
+          <p>Giting Ready</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/giovannim1166">giovannim1166</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>By Giovanni Morales</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<p>Git is a version control system that allows the user to edit a file and save by creating snapshots so you can go back to past screenshots later.
+Git is also used for working with others to work on the same project at the same time.
+Github is the website that allows people to see other people's projects and contribute to them. </p>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<ol>
+<li>One one tab make a github account on <a href="https://github.com">github.com</a>
+</li>
+<li>On the top right coner of the page click on the profile icon </li>
+<li>On the left sidebar click SSH keys, then add SSH keys</li>
+<li>On another tab go to <a href="https://c9.io">c9.io</a>and sign in using github (the cat icon) and create a workspace</li>
+<li>Go to the dashboard by clicking the "CLoud9" buuton</li>
+<li>Click SSH keys and copy the ssh-rsa... </li>
+<li>Go back to github and paste what you just copied </li>
+<li>in the commaand line type git config user.name "First name Last name" </li>
+<li>then do git config user.email "<a href="mailto:whatever@something.com">whatever@something.com</a>"</li>
+<li>Type "ssh-T <a href="mailto:git@github.com">git@github.com</a>" in the command line, after type yes</li>
+</ol>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<p>1.When you're in the directory you want to be in do git init<br>
+2.When you want to add something to be saved you do git add "file name"<br>
+3.When you want to save what you added you do git commit -u origin master only the first time and every other time you just put git init</p>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<h4>
+<a id="commands" class="anchor" href="#commands" aria-hidden="true"><span class="octicon octicon-link"></span></a>Commands</h4>
+
+<p>git init - allows the use of git<br>
+git add - adds files to the "stage"<br>
+git status - lets you know which files need to be added to the stage and files that are already on the stage<br>
+git commit - takes a snapshot or save of whatever is on the stage<br>
+git push - takes commit and sends it to github to be stored there (a remote)  </p>
+
+<h4>
+<a id="workflow" class="anchor" href="#workflow" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workflow</h4>
+
+<p>The workflow of git is to edit a your files or directories and then git add, git commit, git push so all your edits are shown on github. </p>
+
+<hr>
+
+<h2>
+<a id="collaboration" class="anchor" href="#collaboration" aria-hidden="true"><span class="octicon octicon-link"></span></a>Collaboration</h2>
+
+<p>The way collaboration works on github is through forking and cloning. So on github.com you can look at someone's project but you can also fork it to make your own remote. from there you clone it by doing git clone and pasting the git clone url on github. from there you can add, commit push but it won't be on the original project. so you do a pull request to see if original creator likes your edits and put it on their own project</p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
